@@ -168,6 +168,12 @@ img {
 }
 
 .visually-hidden {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2E2F42; 
+
     position: absolute;
     width: 1px;
     height: 1px;
@@ -180,20 +186,11 @@ img {
     overflow: hidden;
   }
 
+
   .list-capabilities {
     width: calc((100% - 72px) / 4);
   }
 
-
-
-.capabilities-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    color: #2E2F42; 
-    visua
-}
 
 .capabilities-title-name {
     font-weight: 500;
