@@ -27,7 +27,7 @@ img {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0;
   }
 
 .header {
@@ -230,6 +230,12 @@ img {
     margin-bottom: 72px;
 }
 
+.list-team-main {
+    display: flex;
+    gap: 24px;
+    }
+
+
 .section-team-list {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4); 
@@ -297,6 +303,7 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .portfolio-par{
